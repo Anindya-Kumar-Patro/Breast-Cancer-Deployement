@@ -1,0 +1,52 @@
+<html>
+    <body bgcolor=yellow>
+        <center >
+            <form action="{{ url_for('predict')}}"method="POST">
+                <h1>Enter the value of tumor features >>></h1>
+                
+                <input type="text" name="a" placeholder="mean radius" required="required" />
+                <input type="text" name="b" placeholder="mean texture" required="required" />
+                <input type="text" name="c" placeholder="mean perimeter" required="required" />
+                <input type="text" name="d" placeholder="mean area" required="required" />
+                <input type="text" name="e" placeholder="mean smoothness" required="required" />
+                <input type="text" name="f" placeholder="mean compactness" required="required" />
+                <br>
+                <input type="text" name="g" placeholder="mean concavity" required="required" />
+                <input type="text" name="h" placeholder="mean concave points" required="required" />
+                <input type="text" name="i" placeholder="mean symmetry" required="required" />
+                <input type="text" name="j" placeholder="mean fractal dimension" required="required" />
+                <input type="text" name="k" placeholder="radius error" required="required" />
+                <input type="text" name="l" placeholder="texture error" required="required" />
+                <br>
+                <input type="text" name="m" placeholder="perimeter error" required="required" />
+                <input type="text" name="n" placeholder="area error " required="required" />
+                <input type="text" name="o" placeholder="smoothness error" required="required" />
+                <input type="text" name="p" placeholder="compactness error" required="required" />
+                <input type="text" name="q" placeholder="concavity error" required="required" />
+                <input type="text" name="r" placeholder="concave points error" required="required" />
+                <br>
+                <input type="text" name="s" placeholder="symmetry error" required="required" />
+                <input type="text" name="t" placeholder="fractal dimension error" required="required" />
+                <input type="text" name="u" placeholder="worst radius" required="required" />
+                <input type="text" name="v" placeholder="worst texture" required="required" />
+                <input type="text" name="w" placeholder="worst perimeter" required="required" />
+                <input type="text" name="x" placeholder="worst area" required="required" />
+                <br>
+                <input type="text" name="y" placeholder="worst smoothness" required="required" />
+                <input type="text" name="z" placeholder="worst compactness" required="required" />
+                <input type="text" name="aa" placeholder="worst concavity" required="required" />
+                <input type="text" name="ab" placeholder="worst concave points" required="required" />
+                <input type="text" name="ac" placeholder="'worst symmetry" required="required" />
+                <input type="text" name="ad" placeholder="worst fractal dimension" required="required" />
+                <br>
+                <br>
+                
+                <!-- Show button -->
+                <div class="button_cont" align="center"><a class="button_css" href="http://bit.ly/breast-cancer-ml-project" target="_blank" rel="nofollow noopener">
+                    <button type="submit" class="btn btn-primary btn-block btn-large"><strong>Predict Cancer</strong></button></a>
+                </div>
+                
+            </form>
+        </center>
+    </body>
+</html>

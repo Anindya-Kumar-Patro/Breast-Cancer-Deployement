@@ -1,0 +1,17 @@
+<html>
+    <body bgcolor="yellow">
+        
+
+    <center>
+        <h1>Prediction</h1>
+        {%if data==0%}
+        <h1>You are safe nothing to worry about</h1>
+        <img src="../static/breast.jpeg"></br></br>
+        {%else%}
+        <h1>Better to consult a doctor</h1>
+        <img src="../static/doc.jpg"></br></br>
+        {%endif%}
+        <a href='/'>Click to predict again</a>
+    </center>
+    </body>
+</html>
